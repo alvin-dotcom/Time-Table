@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TIME-TABLE</title>
+        <link href=".styled-table.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="C:\Users\alvin\OneDrive\Desktop\Time-Table\Time-Table\images.ico">
+    </head>
+</html>
+<style>
+    
+    .styled-table {
+    border-collapse: collapse;
+    margin: 30px 0;
+    margin-left: 200px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+#header {
+        background-color: #16a085;
+        color: #fff;
+    }
+    
+    h1 {
+        font-weight: 600;
+        text-align: center;
+        background-color: #16a085;
+        color: #fff;
+        padding: 10px 0px;
+    }
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    font-weight: 5 00;
+    border-bottom: 1px solid #dddddd;
+}
+.styled-table tbody tr:nth-of-type(odd) {
+    background-color: #f3f3f3;
+}
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+tr:hover {
+        background-color: #f5f5f5;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+    tr {
+        transition: all .2s ease-in;
+        cursor: pointer;
+    }    
+
+</style>
+<body background="mybgg.jpg">
+    <H1><FONT <CENTER>COLLEGE TIME TABLE</FONT></H1>
+<table class="styled-table">
+    <thead>
+        <tr style="text-align:center">
+            <th>TIME</th>
+            <th>8:00-8:50</th>
+            <th>8:50-9:40</th>
+            <th>9:50-10:40</th>
+            <th>10:40-11:30</th>
+            <th>11:30-12:20</th>
+            <th>12:20-1:10</th>
+            <th>1:10-2:00</th>
+            <th>2:00-2:50</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="text-align:center"  class="active-row">
+            <td>PERIOD</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4 </td>
+            <td></td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr style="text-align:center">
+                <td>MONDAY</td>
+                <td>CLA</td>
+                <td>CE</td>
+                <td>VAC</td>
+                <td>LAB</td>
+                <td>LUNCH</td>
+                <td>PPS</td>
+                <td>CB</td>
+                <td>EVS</td>
+             </tr>
+             <tr style="text-align:center">
+                <td>TUESDAY</td>
+                <td>POE</td>
+                <td>LAB</td>
+                <td>PSP</td>
+                <td>LAB</td>
+                <td>LUNCH</td>
+                <td>SPCM</td>
+                <td>CLA</td>
+                <td>CE</td>
+            </tr>
+            <tr style="text-align:center">
+                <td>WEDNESDAY</td>
+                <td>WORK</td>
+                <td>SHOP</td>
+                <td>WS</td>
+                <td>CE</td>
+                <td>LUNCH</td>
+                <td>SPCM</td>
+                <td>LAB</td>
+                <td>-</td>
+            </tr>
+            <tr style="text-align:center">
+                <td>THURSDAY</td>
+                <td>SPCM</td>
+                <td>PPS</td>
+                <td>CB</td>
+                <td>CLA</td>
+                <td>LUNCH</td>
+                <td>SPCM</td>
+                <td>POE</td>
+                <td>COUNSELLING</td>
+            </tr>
+            <tr style="text-align:center">
+                <td>FRIDAY</td>
+                <td>PPS</td>
+                <td>WS</td>
+                <td>PP</td>
+                <td>LAB</td>
+                <td>LUNCH</td>
+                <td>CLA</td>
+                <td>LIBRARY</td>
+                <td>SPCM</td>
+            </tr>     
+    </tbody>
+</table>
